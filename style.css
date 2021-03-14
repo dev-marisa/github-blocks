@@ -1,13 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     text-align: center;
     font-size: 3rem;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
+    margin-bottom: 20px;
 }
 
 img {
@@ -21,6 +21,7 @@ img {
     padding: 20px;
 }
 
+/* deliberate color choices on my part */
 .row-pink, .row-white, .row-blue {
     display: flex;
     justify-content: space-between;
@@ -29,14 +30,27 @@ img {
 }
 
 .row-pink {
-    background-color: #D5A6BD;
+    background-color: #d5a6bd;
+    justify-content: space-evenly;
 }
 
 .row-blue {
-    background-color: #5AC7ED;
+    background-color: #5ac7ed;
 }
 
 .row-white {
-    justify-content: space-evenly;
     background-color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    color: #777;
+}
+
+.footer a {
+    color: #5ac7ed;
 }
