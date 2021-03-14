@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+img {
+    width: 200px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    padding: 20px;
+}
+
+.row-pink, .row-white, .row-blue {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.row-pink {
+    background-color: #D5A6BD;
+}
+
+.row-blue {
+    background-color: #5AC7ED;
+}
+
+.row-white {
+    justify-content: space-evenly;
+    background-color: #fff;
+}
